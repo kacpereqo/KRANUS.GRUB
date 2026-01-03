@@ -1,0 +1,40 @@
+title-text: ""
+desktop-image: "background.png"
+terminal-font: "Unifont Regular 16"
+terminal-left: "288"
+terminal-width: "1259"
+
++ boot_menu {
+    left = 302
+    top = 200
+    width = 1100
+    height = 300
+    item_font = "DotGothic16 Regular 32"
+    item_color = "#ffff00"
+    selected_item_color = "#FFFFFF"
+    selected_item_pixmap_style = "selected_item_*.png"
+    icon_width = 44
+    icon_height = 44
+    item_icon_space = 70
+}
+
++ label {
+    id = __timeout__
+    text = "ZA %d SEKUND WYBUCHNIE BOMBA!!!"
+    left = 340
+    top = 850
+    width = 160
+    height = 65
+    font = "DotGothic16 Regular 96"
+    color = "#00ffff"
+}
+
++ progress_bar {
+    id = __timeout__
+    left = 788
+    top = 997
+    width = 558
+    height = 2
+    highlight_style = "progress_hl_*.png"
+    fg_color = "#750F20"
+}
